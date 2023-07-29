@@ -95,8 +95,20 @@ The output will vary based on the user's selections:
     
     The script will generate Python code for building the specified machine learning model.
     
-    ![screenshot.png](screenshot.png)
+    <img width="675" alt="03 - Model Building" src="https://github.com/UmairThakur/UPT/assets/81063457/c181f3a2-d6a5-4b32-812d-bf727993105c">
 
+    Output:
+    It not only will give you the Python code like Code Interpreter but it **goes one step further by also providing you with the errors that you may face while you run this code on your system.**
+
+    <img width="675" alt="03 - output1" src="https://github.com/UmairThakur/UPT/assets/81063457/61b6cb0b-a03b-46a6-a3f1-c87e6349ff97">
+
+    Example: Highlighting the Error here, as GPT didn't install sklearn as it cannot access your system, therefore UPT is showing the you may get this error while running the code.
+    
+    <img width="674" alt="03 - output2" src="https://github.com/UmairThakur/UPT/assets/81063457/b211c1bb-35a9-45c8-b822-f442ab9a7785">
+
+  
+    
+    
 - **Senior Analyst (Beta Version)** 
     
     Will provide insights and recommendations based on the data analysis, EDA, and model building process.
