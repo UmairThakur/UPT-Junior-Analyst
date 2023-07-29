@@ -61,9 +61,8 @@ To set your OpenAI API key as an environment variable, you can follow these gene
 Please note that you should treat your API key as sensitive information and avoid sharing it publicly or committing it to version control systems. If you're working on a shared system, it's better to use a more secure method for storing your API key, such as using a secrets manager or configuration file with restricted permissions.
 
 ## **Usage**
-1. Run the 'UPT-Junior Analyst.exe' and provide the path to the Excel file containing the dataset you want to analyze.
-<img width="676" alt="02 - initial_load" src="https://github.com/UmairThakur/UPT/assets/81063457/e29f453d-7f82-4b26-b7e6-a233e12cfe9d">
-
+1. Run the 'UPT-Junior Analyst.exe' and provide the path to the Excel file containing the dataset you want to analyze. It might take some time to run for the first time, as it will be installing the necessary dependencies. Once everything is installed successfully you will see something like this in the console.
+   <img width="676" alt="Initial_load" src="https://github.com/UmairThakur/UPT/assets/81063457/e29f453d-7f82-4b26-b7e6-a233e12cfe9d">
 
 ## **Output**
 The output of the script will vary based on the user's selections:
