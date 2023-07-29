@@ -111,9 +111,20 @@ The output will vary based on the user's selections:
     
 - **Senior Analyst (Beta Version)** 
     
-    Will provide insights and recommendations based on the data analysis, EDA, and model building process.
-    ![screenshot.png](screenshot.png)
+    If you want a base code to start with or having tough time working with the dataset, the Senior Analyst feature is for you. 
+    It will try come up with actual insights and recommendations based on the data analysis, EDA, and model building process.
+    Again, since your data is not being shared with the model, it might now and then run into minor errors.
+    This is a beta feature, I might refine this feature more in the future and may also add functionalities to support R Programming and PowerBI queries.    
 
+    Output:
+    Showing what the 'Senior Analyst' feature will be doing depending on the KPIs present in the dataset.
+
+    <img width="676" alt="04 - output1" src="https://github.com/UmairThakur/UPT/assets/81063457/1179e34f-1eef-422c-ae98-bdfb20112f17">
+
+    Also showing the error that you can expect in the end from the ChatGPT generate code. 
+    <img width="674" alt="04 - output2" src="https://github.com/UmairThakur/UPT/assets/81063457/c7865c1c-d237-4444-85e5-647e9c89c753">
+
+    
 **Note:** Since, we are sharing limited data with the model and the parameter are set such that it commands the model to be verbose, if you get some errors for a specific prompt retry typing it in a different way.
 
 ## **Limitations**
