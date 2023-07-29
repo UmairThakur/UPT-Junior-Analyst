@@ -62,7 +62,7 @@ Please note that you should treat your API key as sensitive information and avoi
 
 ## **Usage**
 1. Run the 'UPT-Junior Analyst.exe' and provide the path to the Excel file containing the dataset you want to analyze. It might take some time to run for the first time, as it will be installing the necessary dependencies. Once everything is installed successfully you will see something like this in the console.
-   <img width="676" alt="Initial_load" src="https://github.com/UmairThakur/UPT/assets/81063457/e29f453d-7f82-4b26-b7e6-a233e12cfe9d">
+<img width="676" alt="Initial_load" src="https://github.com/UmairThakur/UPT/assets/81063457/e29f453d-7f82-4b26-b7e6-a233e12cfe9d">
 
 ## **Output**
 The output of the script will vary based on the user's selections:
