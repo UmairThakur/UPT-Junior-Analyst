@@ -61,25 +61,40 @@ To set your OpenAI API key as an environment variable, you can follow these gene
 Please note that you should treat your API key as sensitive information and avoid sharing it publicly or committing it to version control systems. If you're working on a shared system, it's better to use a more secure method for storing your API key, such as using a secrets manager or configuration file with restricted permissions.
 
 ## **Usage**
-1. Run the 'UPT-Junior Analyst.exe' and provide the path to the Excel file containing the dataset you want to analyze. It might take some time to run for the first time, as it will be installing the necessary dependencies. Once everything is installed successfully you will see something like this in the console.
-<img width="676" alt="Initial_load" src="https://github.com/UmairThakur/UPT/assets/81063457/e29f453d-7f82-4b26-b7e6-a233e12cfe9d">
+1. Run the 'UPT-Junior Analyst.exe'. It might take some time to load for the first time, as it will be installing the necessary dependencies.
 
-## **Output**
-The output of the script will vary based on the user's selections:
-- **Data Analysis** 
+   <img width="426" alt="00 - Run  exe" src="https://github.com/UmairThakur/UPT/assets/81063457/9d3f9c2c-753d-48b9-a85a-d0ff80c0d516">
+
+
+2. Provide the path to the Excel file containing the dataset you want to analyze. If have a .csv file or want to use multiple .csv files, just paste every in a single Excel Workbook into different sheet(sheet name as the table name that you want, and **Save As 'Excel Workbook'**). Once the Data is Loaded you will see something like this.
+
+   <img width="674" alt="03- data_loaded" src="https://github.com/UmairThakur/UPT/assets/81063457/6afdc9bf-0909-4818-9416-dcad48cbcc73">
+
+
+The output will vary based on the user's selections:
+- **1. Analyse the Data** 
     
     Will return SQL-like output and also an SQL query that you can run on the server to get the same output.
     
-    ![screenshot.png](screenshot.png)
+    <img width="769" alt="01 - Analyse" src="https://github.com/UmairThakur/UPT/assets/81063457/f6ac8981-80f9-4e9a-9550-5b8834facf53">
+
 
 - **Data Visualization** 
 
     The script will generate charts or plots based on the provided Python code.
-    ![screenshot.png](screenshot.png)
+
+    <img width="770" alt="02 - Visualise" src="https://github.com/UmairThakur/UPT/assets/81063457/bfe2f54a-7a1b-43fe-931e-80cfeaeccd1b">
+
+    Output:
+
+    <img width="960" alt="02 - Visual Output" src="https://github.com/UmairThakur/UPT/assets/81063457/a3eb0fe0-773a-40fb-ae11-61e9fe16e7f9">
+
+    If you requested for multiple charts, you will get each chart in a new Window.
 
 - **Model Building** 
     
     The script will generate Python code for building the specified machine learning model.
+    
     ![screenshot.png](screenshot.png)
 
 - **Senior Analyst (Beta Version)** 
@@ -87,7 +102,7 @@ The output of the script will vary based on the user's selections:
     Will provide insights and recommendations based on the data analysis, EDA, and model building process.
     ![screenshot.png](screenshot.png)
 
-Since, we are sharing limited data with the model and the parameter are set such that it commands the model to be verbose, if you get some errors for a specific prompt retry typing it in a different way.
+**Note:** Since, we are sharing limited data with the model and the parameter are set such that it commands the model to be verbose, if you get some errors for a specific prompt retry typing it in a different way.
 
 ## **Limitations**
 - The script relies on OpenAI's GPT-3.5 language model for natural language processing, which may not always produce accurate or desired results.
