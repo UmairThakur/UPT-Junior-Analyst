@@ -63,12 +63,14 @@ Please note that you should treat your API key as sensitive information and avoi
 ## **Usage**
 1. Run the 'UPT-Junior Analyst.exe'. It might take some time to load for the first time, as it will be installing the necessary dependencies.
 
-   <img width="426" alt="00 - Run  exe" src="https://github.com/UmairThakur/UPT/assets/81063457/9d3f9c2c-753d-48b9-a85a-d0ff80c0d516">
+   <img width="426" alt="00 - Run  exe" src="https://github.com/UmairThakur/UPT-Junior-Analyst/assets/81063457/da4bb997-24db-415e-b02f-12033c1bfbef">
+
 
 
 2. Provide the path to the Excel file containing the dataset you want to analyze. If have a .csv file or want to use multiple .csv files, just paste every in a single Excel Workbook into different sheet(sheet name as the table name that you want, and **Save As 'Excel Workbook'**). Once the Data is Loaded you will see something like this.
 
-   <img width="674" alt="03- data_loaded" src="https://github.com/UmairThakur/UPT/assets/81063457/6afdc9bf-0909-4818-9416-dcad48cbcc73">
+   <img width="674" alt="03- data_loaded" src="https://github.com/UmairThakur/UPT-Junior-Analyst/assets/81063457/e1b99051-523a-4604-b5ca-5a1a9ac64854">
+
 
 
 The output will vary based on the user's selections:
@@ -76,18 +78,21 @@ The output will vary based on the user's selections:
     
     Will return SQL-like output and also an SQL query that you can run on the server to get the same output.
     
-    <img width="769" alt="01 - Analyse" src="https://github.com/UmairThakur/UPT/assets/81063457/f6ac8981-80f9-4e9a-9550-5b8834facf53">
+    <img width="769" alt="01 - Analyse" src="https://github.com/UmairThakur/UPT-Junior-Analyst/assets/81063457/6515f667-a31b-4173-8292-94206ad7e677">
+
 
 
 - **Data Visualization** 
 
     The application will generate charts or plots based on the provided Python code.
 
-    <img width="770" alt="02 - Visualise" src="https://github.com/UmairThakur/UPT/assets/81063457/bfe2f54a-7a1b-43fe-931e-80cfeaeccd1b">
+    <img width="770" alt="02 - Visualise" src="https://github.com/UmairThakur/UPT-Junior-Analyst/assets/81063457/7fd40c5d-6520-4571-bf25-25455ab10e0b">
+
 
     Output:
 
-    <img width="960" alt="02 - Visual Output" src="https://github.com/UmairThakur/UPT/assets/81063457/a3eb0fe0-773a-40fb-ae11-61e9fe16e7f9">
+    <img width="960" alt="02 - Visual Output" src="https://github.com/UmairThakur/UPT-Junior-Analyst/assets/81063457/3c5e3456-28b9-4159-8367-f9933d8366bd">
+
 
     If you requested for multiple charts, you will get each chart in a new Window.
 
@@ -95,16 +100,19 @@ The output will vary based on the user's selections:
     
     The application will generate Python code for building the specified machine learning model.
     
-    <img width="675" alt="03 - Model Building" src="https://github.com/UmairThakur/UPT/assets/81063457/c181f3a2-d6a5-4b32-812d-bf727993105c">
+    <img width="675" alt="03 - Model Building" src="https://github.com/UmairThakur/UPT-Junior-Analyst/assets/81063457/3cd4a7ea-ead7-4ccd-9bb6-0feaf228fdc3">
+
 
     Output:
     It not only will give you the Python code like Code Interpreter but it **goes one step further by also providing you with the errors that you may face while you run this code on your system.**
 
-    <img width="675" alt="03 - output1" src="https://github.com/UmairThakur/UPT/assets/81063457/61b6cb0b-a03b-46a6-a3f1-c87e6349ff97">
+    <img width="675" alt="03 - output1" src="https://github.com/UmairThakur/UPT-Junior-Analyst/assets/81063457/79c08c50-8698-4fc6-b0c0-8c06a863193b">
+
 
     Example: Highlighting the Error here, as GPT didn't install sklearn as it cannot access your system, therefore UPT is showing the you may get this error while running the code.
     
-    <img width="674" alt="03 - output2" src="https://github.com/UmairThakur/UPT/assets/81063457/b211c1bb-35a9-45c8-b822-f442ab9a7785">
+    <img width="674" alt="03 - output2" src="https://github.com/UmairThakur/UPT-Junior-Analyst/assets/81063457/7b303c19-79da-4e8c-ad10-e178347de56c">
+
 
   
     
@@ -119,10 +127,12 @@ The output will vary based on the user's selections:
     Output:
     Showing what the 'Senior Analyst' feature will be doing depending on the KPIs present in the dataset.
 
-    <img width="676" alt="04 - output1" src="https://github.com/UmairThakur/UPT/assets/81063457/1179e34f-1eef-422c-ae98-bdfb20112f17">
+    <img width="676" alt="04 - output1" src="https://github.com/UmairThakur/UPT-Junior-Analyst/assets/81063457/5666ece9-378e-43cc-9d91-5914f1afc0f4">
+
 
     Also showing the error that you can expect in the end from the ChatGPT generate code. 
-    <img width="674" alt="04 - output2" src="https://github.com/UmairThakur/UPT/assets/81063457/c7865c1c-d237-4444-85e5-647e9c89c753">
+    <img width="674" alt="04 - output2" src="https://github.com/UmairThakur/UPT-Junior-Analyst/assets/81063457/3bea949e-827a-4e40-bc9f-5e8a500b59bf">
+
 
     
 **Note:** Since, we are sharing limited data with the model and the parameter are set such that it commands the model to be verbose, if you get some errors for a specific prompt retry typing it in a different way.
